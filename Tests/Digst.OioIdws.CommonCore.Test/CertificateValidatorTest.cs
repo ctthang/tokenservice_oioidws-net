@@ -81,7 +81,7 @@ namespace Digst.OioIdws.CommonCore.Test
             var exception = Assert.ThrowsException<SecurityTokenValidationException>(() => sut.Validate(certificate));
 
             // Assert
-            StringAssert.Contains(exception.Message, "Validating certificate SERIALNUMBER=CVR:30808460-FID:87102701 + CN=TU GENEREL FOCES spærret (funktionscertifikat), O=NETS DANID A/S // CVR:30808460, C=DK; A93DF35F7A5E7AF9E2F2737DB2163C5D3716819F failed. Replace the certificate or change the certificateValidationMode. The certificate is revoked.");
+            StringAssert.Contains(exception.Message, "Validating certificate SERIALNUMBER=CVR:30808460-FID:87102701 + CN=TU GENEREL FOCES spærret (funktionscertifikat), O=NETS DANID A/S // CVR:30808460, C=DK; A93DF35F7A5E7AF9E2F2737DB2163C5D3716819F failed.");
         }
 
         [TestMethod]
@@ -167,7 +167,7 @@ namespace Digst.OioIdws.CommonCore.Test
             var exception = Assert.ThrowsException<SecurityTokenValidationException>(() => sut.Validate(certificate));
 
             // Assert
-            StringAssert.Contains(exception.Message, "Validating certificate SERIALNUMBER=CVR:30808460-FID:87102701 + CN=TU GENEREL FOCES spærret (funktionscertifikat), O=NETS DANID A/S // CVR:30808460, C=DK; A93DF35F7A5E7AF9E2F2737DB2163C5D3716819F failed. Replace the certificate or change the certificateValidationMode. The certificate is revoked.");
+            StringAssert.Contains(exception.Message, "Validating certificate SERIALNUMBER=CVR:30808460-FID:87102701 + CN=TU GENEREL FOCES spærret (funktionscertifikat), O=NETS DANID A/S // CVR:30808460, C=DK; A93DF35F7A5E7AF9E2F2737DB2163C5D3716819F failed.");
         }
 
         [TestMethod]

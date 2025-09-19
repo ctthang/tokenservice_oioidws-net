@@ -28,19 +28,19 @@ public class TokenServiceConfigurationFactoryTest
             {
                 FromFileSystem = true,
                 FilePath = "Data\\Test.p12",
-                Password = "D0mm3dag"
+                Password = "n0v3ll"
             },
             StsCertificate = new Certificate
             {
                 FromFileSystem = true,
                 FilePath = "Data\\Test.p12",
-                Password = "D0mm3dag"
+                Password = "n0v3ll"
             },
             ServiceCertificate = new Certificate
             {
                 FromFileSystem = true,
                 FilePath = "Data\\Test.p12",
-                Password = "D0mm3dag",
+                Password = "n0v3ll",
                 FindValue = "Any",
                 StoreLocation = System.Security.Cryptography.X509Certificates.StoreLocation.LocalMachine,
                 StoreName = System.Security.Cryptography.X509Certificates.StoreName.My,
@@ -50,7 +50,7 @@ public class TokenServiceConfigurationFactoryTest
             {
                 FromFileSystem = true,
                 FilePath = "Data\\Test.p12",
-                Password = "D0mm3dag"
+                Password = "n0v3ll"
             },
             IncludeLibertyHeader = true,
             DebugMode = false,
